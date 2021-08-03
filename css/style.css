@@ -1,1 +1,36 @@
 @charset "utf-8";
+.nav {
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.fa-3x {
+  color: #777;
+}
+.nav-contact {
+  color: #ffffff;
+  background-color: #6ba7eb;
+  padding: 12px 14px;
+  font-size: 12px;
+}
+.keyvisual {
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.web {
+  font-size: 65px;
+  font-weight: 700px;
+  color: #6ba7eb;
+  text-align: center;
+}
+.direction {
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: 30px;
+  text-align: center;
+}
+.title {
+  padding: 400px 0;
+}
