@@ -117,6 +117,7 @@
   border-collapse: collapse;
   font-size: 16px;
   line-height: 26px;
+  table-layout: fixed;
 }
 tr:nth-child(2n-1) {
   background: #e0efff;
@@ -137,4 +138,30 @@ tr th:first-child {
 }
 .plan-inner {
   margin: 0 auto;
+}
+
+.sns {
+  background: #e3f2fd;
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+}
+.awesome {
+  color: #8c8c8c;
+  width: 185px;
+  font-size: 40px;
+  overflow: hidden;
+  padding: 25px 0;
+}
+
+.footer-gray {
+  background: #cfd8dc;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-footer {
+  padding: 20px 0 25px 0;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  margin-right: 10%;
 }
