@@ -40,17 +40,26 @@
   padding: 400px 0;
 }
 
-.content-work {
+.work {
+  background: #e3f2fd;
+  display: flex;
+  justify-content: center;
+}
+.work-inner {
   display: flex;
   align-items: flex-start;
   padding-top: 50px;
-  justify-content: space-around;
 }
-.work {
-  background: #e3f2fd;
+.img-work {
+  width: 40%;
+  display: flex;
+  justify-content: center;
 }
 .tv {
   width: 250px;
+}
+.wrapper-work {
+  width: 60%;
 }
 .h2-work {
   margin-top: 20px;
@@ -60,9 +69,6 @@
   letter-spacing: 10px;
   font-size: 40px;
 }
-.wrapper-work {
-  width: 55%;
-}
 .text-work {
   margin-top: 35px;
   font-size: 15px;
@@ -70,6 +76,12 @@
   word-break: break-all;
   text-align: center;
 }
+
+
+
+
+
+
 
 .skills {
   background: #fff;
@@ -81,28 +93,39 @@
 }
 .inner {
   width: 1100px;
-}
-.skills-inner {
   margin: 0 auto;
 }
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
+.skills-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.skills-img {
+.skills-img{
   width: 300px;
   height: 300px;
-  float: left;
+  opacity: 0.7;
   margin-right: 100px;
   margin-top: 100px;
 }
-.skills-img:nth-child(3n) {
+.skills-img:hover {
+  opacity: 1;
+}
+
+
+
+.skills-img:nth-of-type(3n) {
   margin-right: 0px;
 }
 .skills-img:nth-child(-n+3) {
   margin-top: 0px;
 }
+
+
+
+
+
+
+
 
 .plan {
   background: #d0dfea;
@@ -152,6 +175,11 @@ tr th:first-child {
   font-size: 40px;
   overflow: hidden;
   padding: 25px 0;
+  text-align: center;
+}
+.awesome:hover {
+  color: #fff;
+  transition: 0.5s;
 }
 
 .footer-gray {
