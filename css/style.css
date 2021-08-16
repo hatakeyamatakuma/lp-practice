@@ -42,7 +42,6 @@
 .title {
   padding: 400px 0;
 }
-
 .work {
   background: #e3f2fd;
   display: flex;
@@ -79,13 +78,6 @@
   word-break: break-all;
   text-align: center;
 }
-
-
-
-
-
-
-
 .skills {
   background: #fff;
   padding-bottom: 70px;
@@ -113,23 +105,12 @@
 .skills-img:hover {
   opacity: 1;
 }
-
-
-
 .skills-img:nth-of-type(3n) {
   margin-right: 0px;
 }
 .skills-img:nth-child(-n+3) {
   margin-top: 0px;
 }
-
-
-
-
-
-
-
-
 .plan {
   background: #d0dfea;
   padding-bottom: 50px;
@@ -165,7 +146,6 @@ tr th:first-child {
 .plan-inner {
   margin: 0 auto;
 }
-
 .sns {
   background: #e3f2fd;
   padding: 200px 0;
@@ -184,7 +164,6 @@ tr th:first-child {
   color: #fff;
   transition: 0.5s;
 }
-
 .footer-gray {
   background: #cfd8dc;
   display: flex;
