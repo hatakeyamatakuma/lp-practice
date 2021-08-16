@@ -9,14 +9,17 @@
   color: #777;
 }
 .nav-contact {
-  color: #ffffff;
   background-color: #6ba7eb;
   padding: 12px 14px;
   font-size: 12px;
 }
-.nav-contact:hover {
+.nav-contact a:hover {
   color: #333;
   transition: 0.3s;
+}
+.nav-contact a {
+  text-decoration: none;
+  color: #ffffff;
 }
 .keyvisual {
   background-image: url(../img/keyvisual/keyvisual.jpg);
