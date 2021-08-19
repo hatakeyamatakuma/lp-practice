@@ -2,6 +2,7 @@
 header {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 .white-background {
   background: #fff;
@@ -32,14 +33,11 @@ header {
   text-decoration: none;
   color: #ffffff;
 }
-
-.title {
-  padding: 400px 0;
-}
 .keyvisual {
   background-image: url(../img/keyvisual/keyvisual.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 400px 0;
 }
 .web {
   font-size: 65px;
