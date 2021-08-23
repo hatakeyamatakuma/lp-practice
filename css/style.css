@@ -39,11 +39,15 @@ header {
   background-size: cover;
   padding: 400px 0;
 }
+.title-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .web {
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
-  text-align: center;
 }
 .direction {
   font-size: 40px;
@@ -56,14 +60,14 @@ header {
   background: #e3f2fd;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
 }
 .work-inner {
   display: flex;
   align-items: flex-start;
-  padding-top: 50px;
 }
 .img-work {
-  width: 40%;
+  flex: 4;
   display: flex;
   justify-content: center;
 }
@@ -71,7 +75,7 @@ header {
   width: 250px;
 }
 .wrapper-work {
-  width: 60%;
+  flex: 6;
 }
 .h2-work {
   margin-top: 20px;
@@ -148,9 +152,6 @@ tr th, tr td {
 }
 tr th:first-child {
   border-left: none;
-}
-.plan-inner {
-  margin: 0 auto;
 }
 .sns {
   background: #e3f2fd;
