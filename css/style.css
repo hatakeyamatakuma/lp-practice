@@ -187,3 +187,58 @@ tr th:first-child {
   letter-spacing: 0.5px;
   margin-right: 10%;
 }
+
+
+@media screen and (max-width: 1199px) {
+  .inner {
+    width: 97%;
+  }
+  .keyvisual {
+    padding: 250px 0;
+  }
+  .work-inner {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  .skills-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills-link {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .skills-link:nth-child(4n) {
+    margin-top: 80px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .keyvisual {
+    padding: 200px 0;
+  }
+  .web {
+    font-size: 40px;
+  }
+  .direction {
+    font-size: 30px;
+  }
+  .cell-table {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  tr td {
+    font-size: 12px;
+  }
+  .sns {
+    padding: 50px 15px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .awesome {
+    padding: 50px 0;
+  }
+}
