@@ -170,6 +170,7 @@ tr th:first-child {
   overflow: hidden;
   padding: 25px 0;
   text-align: center;
+  transition: 0.5s;
 }
 .awesome:hover {
   background: #fff;
