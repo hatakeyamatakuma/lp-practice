@@ -221,7 +221,7 @@ tr th:first-child {
   .skills-link:nth-child(3n) {
     margin-bottom: 80px;
   }
-  .skills-link:nth-child(6) {
+  .skills-link:last-child {
     margin-bottom: 0px;
   }
 }
